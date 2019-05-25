@@ -1,0 +1,1 @@
+{"options":{"validator":{"$jsonSchema":{"bsonType":"object","properties":{"phone":{},"email":{},"status":{}}}}},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"test.hotels_rank2"}],"uuid":"8c85a919bf1842929b3cabfb32d189df"}

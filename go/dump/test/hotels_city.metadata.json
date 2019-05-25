@@ -1,0 +1,1 @@
+{"options":{"validator":{"$jsonSchema":{"bsonType":"object","properties":{"hotel_id":{},"city_id":{},"city":{},"country_id":{},"country":{},"countryisocode":{}}}}},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"test.hotels_city"},{"v":2,"unique":true,"key":{"hotel_id":1.0},"name":"hotel_id_1","ns":"test.hotels_city"}],"uuid":"7b83000c7ac04b36bda7e78913253372"}
