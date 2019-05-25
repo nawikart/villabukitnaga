@@ -33,7 +33,7 @@ func Reservation(w http.ResponseWriter, r *http.Request) {
 		`
 		// fmt.Println(msg)
 		sbj := "Reservation from website Bukit Naga"
-		to := []string{"nawi@outpost-asia.com"}
+		to := []string{"reservation@villabukitnaga.com", "info@villabukitnaga.com"}
 		SendMail(sbj, msg, to, []string{})
 		result.Status = "success"
 	}

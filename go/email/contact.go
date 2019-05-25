@@ -33,7 +33,7 @@ func Contact(w http.ResponseWriter, r *http.Request) {
 		`
 		// fmt.Println(msg)
 		
-		to := []string{"nawi@outpost-asia.com"}
+		to := []string{"reservation@villabukitnaga.com", "info@villabukitnaga.com"}
 		SendMail(r.Form["subject"][0], msg, to, []string{})
 		result.Status = "success"
 	}

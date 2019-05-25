@@ -112,6 +112,9 @@ export default {
   }
 
   @media only screen and (max-width: 600px) {
+    #grid6 .item.iteem {
+      padding: 38px !important;
+    }    
     #grid6 .item {
       border-bottom: 1px solid #ffffff;
     }
