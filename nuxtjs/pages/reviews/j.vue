@@ -1,0 +1,77 @@
+
+<style>
+  @media only screen and (min-width: 1801px) {
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1800px) {
+    .rpad {
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-top: 20px;
+    }
+
+    .rpl {
+      padding-left: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .rpad {
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-top: 20px;
+    }
+
+    .rpl {
+      padding-left: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .rpad {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+    }
+
+    .rpl {
+      padding-left: 10px;
+    }
+  }
+
+  #grid6 {
+    max-width: 1360px;
+    margin: auto;
+  }
+
+    #grid6 .item {
+      padding: 8px !important;
+    }
+</style>
+
+<template>
+  <v-container fluid grey lighten-3>
+    <v-layout column>
+      <v-flex xs12 class="rpad">
+        <h1>
+          Wedding of my dreams!!!
+        </h1><br />
+        <b>Ren - J Perth, Australia</b><br />
+        <br />
+        Amazing. Totally exceeded my expectations again and again (which were already pretty high). The setting and views are stunning. There really are no words to describe how impressive and peaceful the location is. The Villa itself is outstanding. Luxurious and huge. It was impossible to pick which room we liked the best, because they are all amazing. The staff are helpful, friendly and courteous, a special thanks to Melly who was so helpful. Parta, the Villa Manager, is an absolute star. He is so professional and accommodating, and nothing is a problem. The food is delicious. Every meal we had as a banquet with the whole family, and we all loved every dish we got (thanks Putu!).<br />
+        <br />
+        We held our wedding at the Villa in May. To say it was the wedding of my dreams is an understatement. Once again they exceeded my expectations of what the day would be. The lovely Erma, helped me plan every aspect of the wedding and answered my never ending questions, major and trivial, quickly, knowledgeably and with suggestions when I was a little bit lost. I did not use a wedding planner, and was concerned about this having read so many stories online about how you should definitely use one when getting married in Bali, but every aspect of the day came together thanks to the efforts of Erma, Parta and all of the amazing staff. Having not a drop of rain in the preceding week, on the morning of the wedding we awoke to a tropical downpour. As we had planned an entirely outdoor event, we were more than a little bit anxious. Parta calmly informed us that we had hours to make a decision and not to worry. I of course kept asking him, when do you need to know what we are going to do as the decorating people were there etc, and he always calmly responded not yet, we have plenty of time. And he was right, he made the decision on my behalf and somehow the whole thing was decorated at the last minute outside and looked amazing. Not being the most organised Bride, when Erma asked my theme I didn’t have one, or what flowers I wanted I responded with ‘colourful’. I sent Erma a picture from Pinterest of how I envisioned the table setting, and somehow from that one photo she made it look exactly the same. The food for the reception was out of this world. Our guests continually complimented the food, drinks and beauty of the whole event.<br />
+        <br />
+        The only thing that I was concerned about during our stay was the bill we were racking up. There are no prices on the menu’s, as they source the products once you have ordered them, therefore you are in the dark as to how much things are costing. This did cause some concern with our guests, as the Villa is so luxurious, and the food and service so awesome (we were having breakfast, lunch and dinner there every day for 3 days, not including the wedding day) we all started becoming a bit concerned what our final bill would be. We really, really shouldn’t of been. Parta advised that everything is at market price with the service charge on top, and that it wasn’t very expensive. On average it ended up costing us each about $25US a day! We couldn’t believe it. I’m still shocked. This would’ve been good to be aware of at the beginning, so maybe after your first day, as Parta to provide you with a costing on from your first day, so that you can put your mind at ease and just relax and enjoy the insane beauty and luxury that is Villa Bukit Naga.<br />
+        <br />
+        <b>Reviewed June 29, 2015</b><br />
+      </v-flex>
+
+
+
+
+
+    </v-layout>
+  </v-container>
+
+</template>

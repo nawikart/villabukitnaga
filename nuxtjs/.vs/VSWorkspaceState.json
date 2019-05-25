@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\components",
+    "\\components\\front",
+    "\\pages",
+    "\\pages\\employee",
+    "\\pages\\reviews",
+    "\\plugins",
+    "\\store"
+  ],
+  "SelectedNode": "\\pages\\employee\\hgs.vue",
+  "PreviewInSolutionExplorer": false
+}

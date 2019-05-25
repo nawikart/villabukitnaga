@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+// Import Vuetify styling
+@require '~vuetify/src/stylus/main.styl'
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.overlayed.v-parallax{
+    position: relative;  
+}
+.overlayed.v-parallax:before {
+    content: '';
+    height: 350px;
+    display: table;
+    width: 100%;
+    position: absolute;
+    /* background-color: rgba(225, 225, 225, .6); */
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+
+ 
+
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#app {
+ font-family: 'Montserrat', sans-serif;
+}
+
