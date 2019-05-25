@@ -10,8 +10,8 @@ import (
 func main() {
     r := mux.NewRouter()
     // r.PathPrefix("/media/").Handler(http.StripPrefix("/media/", http.FileServer(http.Dir("../media/"))))
-    r.PathPrefix("/media/").Handler(http.StripPrefix("/media/", http.FileServer(http.Dir("./media/"))))
-    r.PathPrefix("/assets/").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("./assets/"))))    
+    r.PathPrefix("/media/").Handler(http.StripPrefix("/media/", http.FileServer(http.Dir("../media/"))))
+    r.PathPrefix("/assets/").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("../assets/"))))    
     
     routes.ApiRoutes(r)
     routes.GalleryRoutes(r)

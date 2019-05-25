@@ -8,4 +8,4 @@ type Result struct {
 
 var result Result	
 
-var dirImage = "/media/images/"
+var dirImage = "../media/images/"
