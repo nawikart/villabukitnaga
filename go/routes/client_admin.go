@@ -10,10 +10,10 @@ import (
 
 func ClientAdminRoutes(r *mux.Router) {
     
-    r.PathPrefix("/static").Handler(http.StripPrefix("/static", http.FileServer(http.Dir("../client/dist/static"))))
+    r.PathPrefix("/static").Handler(http.StripPrefix("/static", http.FileServer(http.Dir("./client/dist/static"))))
  
     r.HandleFunc("/admiin", func(w http.ResponseWriter, r *http.Request) {
-        var t, err = template.ParseFiles("../client/dist/index.html")
+        var t, err = template.ParseFiles("client/dist/index.html")
         if err != nil {
             fmt.Println(err.Error())
             return
@@ -21,7 +21,7 @@ func ClientAdminRoutes(r *mux.Router) {
         t.Execute(w, false)
     })
     r.HandleFunc("/admiin/", func(w http.ResponseWriter, r *http.Request) {
-        var t, err = template.ParseFiles("../client/dist/index.html")
+        var t, err = template.ParseFiles("client/dist/index.html")
         if err != nil {
             fmt.Println(err.Error())
             return
@@ -29,7 +29,7 @@ func ClientAdminRoutes(r *mux.Router) {
         t.Execute(w, false)
     })
     r.HandleFunc("/admiin/{one}", func(w http.ResponseWriter, r *http.Request) {
-        var t, err = template.ParseFiles("../client/dist/index.html")
+        var t, err = template.ParseFiles("client/dist/index.html")
         if err != nil {
             fmt.Println(err.Error())
             return
@@ -37,7 +37,7 @@ func ClientAdminRoutes(r *mux.Router) {
         t.Execute(w, false)
     })
     r.HandleFunc("/admiin/{one}/", func(w http.ResponseWriter, r *http.Request) {
-        var t, err = template.ParseFiles("../client/dist/index.html")
+        var t, err = template.ParseFiles("client/dist/index.html")
         if err != nil {
             fmt.Println(err.Error())
             return
@@ -45,7 +45,7 @@ func ClientAdminRoutes(r *mux.Router) {
         t.Execute(w, false)
     })
     r.HandleFunc("/admiin/{one}/{two}", func(w http.ResponseWriter, r *http.Request) {
-        var t, err = template.ParseFiles("../client/dist/index.html")
+        var t, err = template.ParseFiles("client/dist/index.html")
         if err != nil {
             fmt.Println(err.Error())
             return
@@ -53,7 +53,7 @@ func ClientAdminRoutes(r *mux.Router) {
         t.Execute(w, false)
     })                       
     r.HandleFunc("/admiin/{one}/{two}/", func(w http.ResponseWriter, r *http.Request) {
-        var t, err = template.ParseFiles("../client/dist/index.html")
+        var t, err = template.ParseFiles("client/dist/index.html")
         if err != nil {
             fmt.Println(err.Error())
             return
@@ -62,7 +62,7 @@ func ClientAdminRoutes(r *mux.Router) {
 	})
 	
     r.HandleFunc("/admiin/{one}/{two}/{three}", func(w http.ResponseWriter, r *http.Request) {
-        var t, err = template.ParseFiles("../client/dist/index.html")
+        var t, err = template.ParseFiles("client/dist/index.html")
         if err != nil {
             fmt.Println(err.Error())
             return
@@ -70,7 +70,7 @@ func ClientAdminRoutes(r *mux.Router) {
         t.Execute(w, false)
     })                       
     r.HandleFunc("/admiin/{one}/{two}/{three}/", func(w http.ResponseWriter, r *http.Request) {
-        var t, err = template.ParseFiles("../client/dist/index.html")
+        var t, err = template.ParseFiles("client/dist/index.html")
         if err != nil {
             fmt.Println(err.Error())
             return
