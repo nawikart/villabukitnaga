@@ -14,7 +14,7 @@
 </style>
 
 <template  >
-  <v-container>
+  <v-container id="team">
     <v-layout column font-weight-medium subheading py-5>
       <v-flex display-1 xs12 text-xs-center font-weight-medium>Meet The Team</v-flex><br />
       <p align="center">Villa Bukit Naga has 12 full-time staff who will attend to your every need.<br />
@@ -95,3 +95,10 @@
     }  
   }
 </script>
+
+
+<style>
+#team.container{
+  width: calc(100% - 48px)!important;
+}
+</style>
