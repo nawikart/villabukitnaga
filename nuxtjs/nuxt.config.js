@@ -38,16 +38,20 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
- plugins: [
-  { src: '~/plugins/masonry-layout', ssr: false }
-],
-plugins: [
-  { src: '~/plugins/imageloaded', ssr: false }
-],
- 
-  plugins: [{ src: '~plugins/vue-carousel', ssr: false }],
   plugins: [
-    '@/plugins/vuetify'
+    { src: '~/plugins/masonry-layout', ssr: false }
+  ],
+  plugins: [
+    { src: '~/plugins/imageloaded', ssr: false }
+  ],
+
+  plugins: [
+    { src: '~plugins/vue-carousel', ssr: false }
+  ],
+
+  plugins: [
+    '@/plugins/vuetify',
+    '@/plugins/fontawesome-vue'
   ],
 
   /*

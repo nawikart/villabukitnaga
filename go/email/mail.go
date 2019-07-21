@@ -46,14 +46,13 @@ func (mail *Mail) BuildMessage() string {
 func SendMail(subject, body string, to []string, bcc []string) {
 	mail := Mail{}
 
-	mail.Sender = "nawikartini@gmail.com"
+	mail.Sender = "villabukitnaga.com@gmail.com"
 
 	mail.To = to
 	// mail.Cc = cc
 	mail.Bcc = bcc
 	mail.Subject = subject
 	mail.Body = body
-	
 
 	messageBody := mail.BuildMessage()
 
@@ -63,8 +62,8 @@ func SendMail(subject, body string, to []string, bcc []string) {
 		ServerName:         smtpServer.Host,
 	}
 
-	// USE GOOGLE APP PASSW : bxnxwywitdfftubt
-	auth := smtp.PlainAuth("", mail.Sender, "bxnxwywitdfftubt", smtpServer.Host)
+	// USE GOOGLE APP PASSW
+	auth := smtp.PlainAuth("", mail.Sender, "xjluikyriqddqcze", smtpServer.Host)
 
 	conn, err := tls.Dial("tcp", smtpServer.ServerName(), smtpServer.TlsConfig)
 	if err != nil {

@@ -14,10 +14,12 @@
     <v-flex xs12 white darken-2>
       <v-container>
         <v-layout row wrap black--text font-weight-light subheading py-3>
-          <v-flex xs12 sm6 md4>Copyright © 2019 Villa Bukit Naga Bali. <br />All rights reserved.</v-flex>
-          <v-flex xs12 sm6 md4></v-flex>
-          <v-flex xs12 sm6 md4>
-            <v-img src="/link.png" width="250" height="50" />
+          <v-flex xs12 sm6>Copyright © 2019 Villa Bukit Naga Bali. <br />All rights reserved.</v-flex>
+          <v-flex xs12 sm6 text-xs-right>
+            <fa prefix="fab" icon="faTwitter" class="fa-2x" style="color:#1da1f2"/> &nbsp; 
+            <fa prefix="fab" icon="faGoogle" class="fa-2x" style="color:#db4437"/> &nbsp; 
+            <fa prefix="fab" icon="faFacebook" class="fa-2x" style="color:#3b5998"/>
+            <fa prefix="fab" icon="faTripadvisor" class="fa-2x" style="color:#000000"/> &nbsp; 
           </v-flex>
         </v-layout>
       </v-container>
