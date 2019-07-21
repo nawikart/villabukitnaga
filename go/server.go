@@ -23,6 +23,6 @@ func main() {
 	routes.ClientAdminRoutes(r)
 	routes.NuxtjsRoutes(r)
 
-	fmt.Println("starting web server at http://localhost:80")
-	http.ListenAndServe(":80", r)
+	fmt.Println("starting web server at http://localhost:8081")
+	http.ListenAndServe(":8081", r)
 }

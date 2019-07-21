@@ -18,8 +18,8 @@
           <v-flex xs12 sm6 text-xs-right>
             <fa prefix="fab" icon="faTwitter" class="fa-2x" style="color:#1da1f2"/> &nbsp; 
             <fa prefix="fab" icon="faGoogle" class="fa-2x" style="color:#db4437"/> &nbsp; 
-            <fa prefix="fab" icon="faFacebook" class="fa-2x" style="color:#3b5998"/>
-            <fa prefix="fab" icon="faTripadvisor" class="fa-2x" style="color:#000000"/> &nbsp; 
+            <fa prefix="fab" icon="faFacebook" class="fa-2x" style="color:#3b5998"/> &nbsp; 
+            <fa prefix="fab" icon="faTripadvisor" class="fa-2x" style="color:#000000"/>
           </v-flex>
         </v-layout>
       </v-container>
