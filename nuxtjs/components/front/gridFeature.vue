@@ -2,7 +2,7 @@
 <template>
     <v-flex grey lighten-3>
         <v-layout id="grid6" row wrap py-5 font-weight-thin subheading >
-          <v-flex xs12 text-xs-center font-weight-medium display-1 mb-5 style="color:#444;">Our Recommended Events</v-flex>
+          <v-flex xs12 text-xs-center font-weight-medium display-1 mb-5 style="color:#444;">Ideal Venue For Events</v-flex>
           <v-flex item iteem xs12 sm6 md4 px-4 py-4 v-for="(d, i) in data" :key="i">
             <v-icon medium color="teal lighten-1" style="float:left;margin-right:10px;">home</v-icon>
             <h3>{{ d.title }}</h3>

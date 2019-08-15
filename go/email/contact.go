@@ -3,7 +3,6 @@ package email
 import (
 	// "../../../db/mysql"
 	"encoding/json"
-	"fmt"
 	"net/http"
 )
 
@@ -33,7 +32,7 @@ func Contact(w http.ResponseWriter, r *http.Request) {
 
 			this contact email is come from website www.villabukitnaga.com
 		`
-		fmt.Println(msg)
+		// fmt.Println(msg)
 
 		// to := []string{"nawikartini@gmail.com"}
 		to := []string{"reservation@villabukitnaga.com"}

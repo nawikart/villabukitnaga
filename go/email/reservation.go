@@ -3,7 +3,6 @@ package email
 import (
 	// "../../../db/mysql"
 	"encoding/json"
-	"fmt"
 	"net/http"
 	// "fmt"
 )
@@ -49,10 +48,10 @@ func Reservation(w http.ResponseWriter, r *http.Request) {
 
 			this reservation email is come from website www.villabukitnaga.com
 		`
-		fmt.Println(msg)
+		// fmt.Println(msg)
 		sbj := "Reservation from website Bukit Naga"
 		to := []string{"reservation@villabukitnaga.com"}
-		// to := []string{"nawikartini@gmail.com"}
+		// to := []s tring{"nawikartini@gmail.com"}
 		SendMail(sbj, msg, to, []string{})
 		result.Status = "success"
 	}
