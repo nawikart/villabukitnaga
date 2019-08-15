@@ -131,7 +131,7 @@ export default {
         loading: false,
         data: {},
         uuid:{
-            weddings: '1fc2da5a-69d7-11e9-8b4a-88b111167862',
+            weddings: 'e0d0d8fd-69d4-11e9-8b4a-88b111167862',
             meetings: '0b66c5e1-69d7-11e9-8b4a-88b111167862',
             'coorporate-functions': '1fc2da5a-69d7-11e9-8b4a-88b111167862',
             'reunions': '32af73c9-69d7-11e9-8b4a-88b111167862',
