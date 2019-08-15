@@ -396,7 +396,8 @@ export default {
                     uid: i,
                     name: filename[0],
                     status: 'done',
-                    url: 'http://localhost:8081' + axithis.data[fieldname][i]
+                    url: axithis.data[fieldname][i]
+                    // url: 'http://localhost:8081' + axithis.data[fieldname][i]
                     // url: axithis.data[fieldname][i].replace('https://bejoss.imgix.net', '/media/images')
                   }
                   fileList.push(f) 
