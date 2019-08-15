@@ -51,7 +51,7 @@
     <v-layout column>
       <v-flex xs12 class="rpad">
         <h1>GEDE PARTA YASA</h1><br />
-        <v-img max-width="400px" height="400" src="/img/employee/ADIT9091_0.jpg" />
+        <v-img max-width="400px" height="400" src="/assets/img/GEDEPARTAYASA.jpg" />
         <b>Villa Manager</b><br />
         <br />
         Parta, our Villa Manager has a wealth of experience in handling guests. He joined the villa in 2002. He has received numerous accolades from our guests both from our guests’ reviews and Trip Advisor.

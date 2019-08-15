@@ -51,7 +51,7 @@
     <v-layout column>
       <v-flex xs12 class="rpad">
         <h1>The Managers And Team</h1><br />
-        <v-img max-width="400px" height="400" src="/img/employee/ADIT9245.jpg" />      
+        <v-img max-width="400px" height="400" src="/assets/img/MNT.jpg" />      
         <br />
         A solid team that brings a vast array of skills and experience to make your stay memorable.
       </v-flex>

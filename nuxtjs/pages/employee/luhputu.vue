@@ -51,7 +51,7 @@
     <v-layout column>
       <v-flex xs12 class="rpad">
         <h1>Luh Putu Widiyasih</h1><br />
-        <v-img max-width="400px" height="400" src="/img/employee/ADIT9174_0.jpg" />
+        <v-img max-width="400px" height="400" src="/assets/img/LUHPUTU.jpg" />
         <b>Chef</b><br />
         <br />
         Our Balinese Chef, Ibu Putu is uniquely talented and passionate about cooking. Over the years she has delighted our guests with her culinary skills. She prepares global and specialized cuisines, from Western dishes to local Asian delights.

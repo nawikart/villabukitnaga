@@ -51,7 +51,7 @@
     <v-layout column>
       <v-flex xs12 class="rpad">
         <h1>Erma Susanti</h1><br />
-        <v-img max-width="400px" height="400" src="/img/employee/ADIT9207_0.jpg" />
+        <v-img max-width="400px" height="400" src="/assets/img/ERMASUSANTI.jpg" />
         <b>Reservation Manager</b><br />
         <br />
         Erma joined the Villa in 2014. She handles all the bookings, enquires, events such as weddings, birthdays, and special arrangements. You can be ensured that she puts her heart and soul to make your occasion at Villa Bukit Naga special.        <br />

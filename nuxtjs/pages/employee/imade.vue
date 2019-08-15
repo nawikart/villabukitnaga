@@ -51,7 +51,7 @@
     <v-layout column>
       <v-flex xs12 class="rpad">
         <h1>I Made Widiartha</h1><br />
-        <v-img max-width="400px" height="400" src="/img/employee/ADIT9072_0.jpg" />
+        <v-img max-width="400px" height="400" src="/assets/img/IMADE.jpg" />
         <b>Head Housekeeper</b><br />
         <br />
         “Baron” as he is lovingly called in the villa, is an expert in his field. With his team of 5 staff, they keep the villa ship shaped, the gardens manicured and the pools sparkling.

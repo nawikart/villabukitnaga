@@ -51,7 +51,7 @@
     <v-layout column>
       <v-flex xs12 class="rpad">
         <h1>Housekeeping & Security Team</h1><br />
-        <v-img max-width="400px" height="400" src="/img/employee/baron-and-team.jpg" />
+        <v-img max-width="400px" height="400" src="/assets/img/HGS.jpg" />
         <br />
         A solid team that brings a vast array of skills and experience to make your stay delightful safe.
       </v-flex>
