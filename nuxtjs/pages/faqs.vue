@@ -144,7 +144,7 @@
                       <v-card-text>
                         <p style="font-weight:300">
 
-                          We are happy to accept Visa and MasterCard for a 4% surcharge, in local currency.
+                          We are happy to accept Visa and MasterCard for a 3.5% surcharge, in local currency.
                         </p>
                       </v-card-text>
                     </v-card>

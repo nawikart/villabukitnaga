@@ -52,7 +52,7 @@
                 <v-flex text-xs-center style="padding:15px;">
                   <v-img src="/assets/img/IMADE.jpg"  />
                   <v-flex class="headline" style="text-align: center;padding-top:8px;margin-top:20px;">I MADE WIDIARTA</v-flex>
-                  <v-btn flat href="/employee/imade"  class="subheading" font-weight-thin style="text-align: center;">Villa Manager</v-btn>
+                  <v-btn flat href="/employee/imade"  class="subheading" font-weight-thin style="text-align: center;">Head Housekeeper</v-btn>
 
                 </v-flex>
               </slide>
@@ -68,8 +68,8 @@
               <slide class="swidth">
                 <v-flex text-xs-center style="padding:15px;">
                   <v-img src="/assets/img/HGS.jpg"  />
-                  <v-flex class="headline" style="text-align: center;padding-top:8px;margin-top:20px;">HOUSEKEEPING SECURITY</v-flex>
-                  <v-btn flat href="/employee/hgs" class="subheading" style="text-align: center;">HOUSEKEEPING SECURITY</v-btn>
+                  <v-flex class="headline" style="text-align: center;padding-top:8px;margin-top:20px;">HOUSEKEEPING & SECURITY</v-flex>
+                  <v-btn flat href="/employee/hgs" class="subheading" style="text-align: center;">HOUSEKEEPING & SECURITY</v-btn>
                 </v-flex>
               </slide>
 
