@@ -2,32 +2,32 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _534388f6 = () => interopDefault(import('../pages/about-bali.vue' /* webpackChunkName: "pages/about-bali" */))
-const _5b735986 = () => interopDefault(import('../pages/birthday.vue' /* webpackChunkName: "pages/birthday" */))
-const _329259a7 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _150c93ac = () => interopDefault(import('../pages/corporate.vue' /* webpackChunkName: "pages/corporate" */))
-const _48271fa6 = () => interopDefault(import('../pages/faqs.vue' /* webpackChunkName: "pages/faqs" */))
-const _595e8a52 = () => interopDefault(import('../pages/gridFeature.vue' /* webpackChunkName: "pages/gridFeature" */))
-const _778fef21 = () => interopDefault(import('../pages/meetings.vue' /* webpackChunkName: "pages/meetings" */))
-const _1383ffec = () => interopDefault(import('../pages/press.vue' /* webpackChunkName: "pages/press" */))
-const _3de0985a = () => interopDefault(import('../pages/reservation.vue' /* webpackChunkName: "pages/reservation" */))
-const _ac466d00 = () => interopDefault(import('../pages/reunions.vue' /* webpackChunkName: "pages/reunions" */))
-const _07bafc80 = () => interopDefault(import('../pages/special.vue' /* webpackChunkName: "pages/special" */))
-const _64ef6cca = () => interopDefault(import('../pages/test.vue' /* webpackChunkName: "pages/test" */))
-const _2e4a1195 = () => interopDefault(import('../pages/villa.vue' /* webpackChunkName: "pages/villa" */))
-const _e81ff8b0 = () => interopDefault(import('../pages/weddings.vue' /* webpackChunkName: "pages/weddings" */))
-const _549521ee = () => interopDefault(import('../pages/employee/erma.vue' /* webpackChunkName: "pages/employee/erma" */))
-const _407bfbfc = () => interopDefault(import('../pages/employee/hgs.vue' /* webpackChunkName: "pages/employee/hgs" */))
-const _90432eb4 = () => interopDefault(import('../pages/employee/imade.vue' /* webpackChunkName: "pages/employee/imade" */))
-const _4cf67bed = () => interopDefault(import('../pages/employee/luhputu.vue' /* webpackChunkName: "pages/employee/luhputu" */))
-const _54fb281b = () => interopDefault(import('../pages/employee/mnt.vue' /* webpackChunkName: "pages/employee/mnt" */))
-const _f4e31b14 = () => interopDefault(import('../pages/employee/parta.vue' /* webpackChunkName: "pages/employee/parta" */))
-const _3a093a92 = () => interopDefault(import('../pages/reviews/emerald.vue' /* webpackChunkName: "pages/reviews/emerald" */))
-const _32680b86 = () => interopDefault(import('../pages/reviews/j.vue' /* webpackChunkName: "pages/reviews/j" */))
-const _e3f61c14 = () => interopDefault(import('../pages/reviews/johani.vue' /* webpackChunkName: "pages/reviews/johani" */))
-const _204e1cbc = () => interopDefault(import('../pages/reviews/laura.vue' /* webpackChunkName: "pages/reviews/laura" */))
-const _5c58052b = () => interopDefault(import('../pages/feature/_id/index.vue' /* webpackChunkName: "pages/feature/_id/index" */))
-const _0752b5ce = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _ae0fa712 = () => interopDefault(import('../pages/about-bali.vue' /* webpackChunkName: "pages/about-bali" */))
+const _1158def8 = () => interopDefault(import('../pages/birthday.vue' /* webpackChunkName: "pages/birthday" */))
+const _a7e54416 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _1bd7bc7a = () => interopDefault(import('../pages/corporate.vue' /* webpackChunkName: "pages/corporate" */))
+const _6505a3d0 = () => interopDefault(import('../pages/faqs.vue' /* webpackChunkName: "pages/faqs" */))
+const _53f4e825 = () => interopDefault(import('../pages/gridFeature.vue' /* webpackChunkName: "pages/gridFeature" */))
+const _2d757493 = () => interopDefault(import('../pages/meetings.vue' /* webpackChunkName: "pages/meetings" */))
+const _1ba9bfd8 = () => interopDefault(import('../pages/press.vue' /* webpackChunkName: "pages/press" */))
+const _61b3e121 = () => interopDefault(import('../pages/reservation.vue' /* webpackChunkName: "pages/reservation" */))
+const _5fc24ef2 = () => interopDefault(import('../pages/reunions.vue' /* webpackChunkName: "pages/reunions" */))
+const _759d860e = () => interopDefault(import('../pages/special.vue' /* webpackChunkName: "pages/special" */))
+const _52de580d = () => interopDefault(import('../pages/test.vue' /* webpackChunkName: "pages/test" */))
+const _53b5d163 = () => interopDefault(import('../pages/villa.vue' /* webpackChunkName: "pages/villa" */))
+const _41d5891a = () => interopDefault(import('../pages/weddings.vue' /* webpackChunkName: "pages/weddings" */))
+const _83f8fe52 = () => interopDefault(import('../pages/employee/erma.vue' /* webpackChunkName: "pages/employee/erma" */))
+const _57450f24 = () => interopDefault(import('../pages/employee/hgs.vue' /* webpackChunkName: "pages/employee/hgs" */))
+const _4d5aded0 = () => interopDefault(import('../pages/employee/imade.vue' /* webpackChunkName: "pages/employee/imade" */))
+const _3bff2142 = () => interopDefault(import('../pages/employee/luhputu.vue' /* webpackChunkName: "pages/employee/luhputu" */))
+const _2e46b6e6 = () => interopDefault(import('../pages/employee/mnt.vue' /* webpackChunkName: "pages/employee/mnt" */))
+const _b1facb30 = () => interopDefault(import('../pages/employee/parta.vue' /* webpackChunkName: "pages/employee/parta" */))
+const _1fe78df6 = () => interopDefault(import('../pages/reviews/emerald.vue' /* webpackChunkName: "pages/reviews/emerald" */))
+const _24d1b9ea = () => interopDefault(import('../pages/reviews/j.vue' /* webpackChunkName: "pages/reviews/j" */))
+const _a10dcc30 = () => interopDefault(import('../pages/reviews/johani.vue' /* webpackChunkName: "pages/reviews/johani" */))
+const _4fb1f920 = () => interopDefault(import('../pages/reviews/laura.vue' /* webpackChunkName: "pages/reviews/laura" */))
+const _688c7ff9 = () => interopDefault(import('../pages/feature/_id/index.vue' /* webpackChunkName: "pages/feature/_id/index" */))
+const _21c264e7 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -105,107 +105,107 @@ export function createRouter() {
 
     routes: [{
       path: "/about-bali",
-      component: _534388f6,
+      component: _ae0fa712,
       name: "about-bali"
     }, {
       path: "/birthday",
-      component: _5b735986,
+      component: _1158def8,
       name: "birthday"
     }, {
       path: "/contact",
-      component: _329259a7,
+      component: _a7e54416,
       name: "contact"
     }, {
       path: "/corporate",
-      component: _150c93ac,
+      component: _1bd7bc7a,
       name: "corporate"
     }, {
       path: "/faqs",
-      component: _48271fa6,
+      component: _6505a3d0,
       name: "faqs"
     }, {
       path: "/gridFeature",
-      component: _595e8a52,
+      component: _53f4e825,
       name: "gridFeature"
     }, {
       path: "/meetings",
-      component: _778fef21,
+      component: _2d757493,
       name: "meetings"
     }, {
       path: "/press",
-      component: _1383ffec,
+      component: _1ba9bfd8,
       name: "press"
     }, {
       path: "/reservation",
-      component: _3de0985a,
+      component: _61b3e121,
       name: "reservation"
     }, {
       path: "/reunions",
-      component: _ac466d00,
+      component: _5fc24ef2,
       name: "reunions"
     }, {
       path: "/special",
-      component: _07bafc80,
+      component: _759d860e,
       name: "special"
     }, {
       path: "/test",
-      component: _64ef6cca,
+      component: _52de580d,
       name: "test"
     }, {
       path: "/villa",
-      component: _2e4a1195,
+      component: _53b5d163,
       name: "villa"
     }, {
       path: "/weddings",
-      component: _e81ff8b0,
+      component: _41d5891a,
       name: "weddings"
     }, {
       path: "/employee/erma",
-      component: _549521ee,
+      component: _83f8fe52,
       name: "employee-erma"
     }, {
       path: "/employee/hgs",
-      component: _407bfbfc,
+      component: _57450f24,
       name: "employee-hgs"
     }, {
       path: "/employee/imade",
-      component: _90432eb4,
+      component: _4d5aded0,
       name: "employee-imade"
     }, {
       path: "/employee/luhputu",
-      component: _4cf67bed,
+      component: _3bff2142,
       name: "employee-luhputu"
     }, {
       path: "/employee/mnt",
-      component: _54fb281b,
+      component: _2e46b6e6,
       name: "employee-mnt"
     }, {
       path: "/employee/parta",
-      component: _f4e31b14,
+      component: _b1facb30,
       name: "employee-parta"
     }, {
       path: "/reviews/emerald",
-      component: _3a093a92,
+      component: _1fe78df6,
       name: "reviews-emerald"
     }, {
       path: "/reviews/j",
-      component: _32680b86,
+      component: _24d1b9ea,
       name: "reviews-j"
     }, {
       path: "/reviews/johani",
-      component: _e3f61c14,
+      component: _a10dcc30,
       name: "reviews-johani"
     }, {
       path: "/reviews/laura",
-      component: _204e1cbc,
+      component: _4fb1f920,
       name: "reviews-laura"
     }, {
       path: "/feature/:id?",
-      component: _5c58052b,
+      component: _688c7ff9,
       name: "feature-id"
     }, {
       path: "/",
-      component: _0752b5ce,
+      component: _21c264e7,
       name: "index"
     }],
 
